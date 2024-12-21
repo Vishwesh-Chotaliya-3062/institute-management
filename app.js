@@ -10,6 +10,7 @@ const mediumRoutes = require('./routes/medium.route')
 const standardRoutes = require('./routes/standard.route')
 const subjectRoutes = require('./routes/subject.route')
 const userRoutes = require('./routes/user.route')
+const examRoutes = require('./routes/exam.route')
 
 const app = express()
 app.use(express.json())
@@ -25,6 +26,7 @@ app.use('/api/mediums', mediumRoutes)
 app.use('/api/standards', standardRoutes)
 app.use('/api/subjects', subjectRoutes)
 app.use('/api/users', userRoutes)
+app.use('/api/exams', examRoutes)
 
 const PORT = 3001
 

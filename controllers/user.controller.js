@@ -14,7 +14,7 @@ exports.addUser = async (req, res) => {
 exports.getUsers = async (req, res) => {
   try {
     const users = await Users.find()
-      .populate('instituteType board university degree medium classCategory standard subjects')
+      .populate('instituteType board university degree medium classCategory standard subjects exam')
       .lean()
       .exec()
     res.status(200).json(users)
@@ -28,7 +28,7 @@ exports.getUserById = async (req, res) => {
   try {
     const { userId } = req.params
     const user = await Users.findById(userId)
-      .populate('instituteType board university degree medium classCategory standard subjects')
+      .populate('instituteType board university degree medium classCategory standard subjects exam')
       .lean()
       .exec()
     res.status(200).json(user)

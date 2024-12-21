@@ -22,6 +22,10 @@ const userSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: 'Degree'
     },
+    exam: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Exam'
+    },
     medium: {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'Medium'
