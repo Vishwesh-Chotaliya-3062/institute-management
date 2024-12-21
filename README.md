@@ -4,8 +4,12 @@ This project is developed for institute management
 
 ## Installation
 
-1.) Clone the repository: git clone https://github.com/Vishwesh-Chotaliya-3062/institute-project.git 
+1.) Clone the repository: 
+    
+    git clone https://github.com/Vishwesh-Chotaliya-3062/institute-project.git
+
 2.) npm install
+
 3.) npm run start
 
 The server will be up on port http://localhost:3001
