@@ -6,7 +6,7 @@ This project is developed for institute management
 
 1.) Clone the repository: 
     
-    git clone https://github.com/Vishwesh-Chotaliya-3062/institute-project.git
+    git clone https://github.com/Vishwesh-Chotaliya-3062/institute-management.git
 
 2.) npm install
 
